@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		section{
+			margin-bottom: 4rem;
+		}
+	</style>
+	<title>Create Section JS</title>
+</head>
+<body>
+
+	<section>
+		<div class="container">
+			<div id="box">
+			 <h1 id="align">Used The If Condition</h1>	
+				<p>
+			
+
+					var arr1=["Joe","Rio","Aline","Jax","Max","Tessa"]<br>
+     	var c = 0;<br>
+     	btn1.addEventListener('click',function(){<br>
+
+     	     var a = document.createElement('li') <br>
+                
+                if(c < arr1.length) {<br>
+                    a.textContent=arr1[c];<br>    
+                    c++;<br>
+     		}<br>
+              
+               list1.append(a); <br>
+     	});<br>
+
+         <br>
+         <br>
+          btn1.style.backgroundColor="red";<br>
+          btn1.style.padding="10px 20px 10px 20px";<br>
+          btn1.style.borderRadius="10px";<br>
+          btn1.style.border="0px";<br>
+          btn1.style.color="white"<br>
+          btn1.style.cursor="pointer";<br>
+				</p>
+			</div>
+			<div>	
+			  <h3>Script Output => </h3>			
+			  <nav>
+				<ul id="list1"></ul>
+				<button id="btn1">Click</button>
+			  </nav>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div id="box1">
+			    <h1>Used The For Loop</h1>
+			    <p>
+			    	var arr2=[1,2,3,4,5,6]<br>
+     	btn2.addEventListener('click',function(){<br>
+
+     	     var b = document.createElement('li') <br>
+
+     		for (var i = 0; i < arr2.length; i++) {<br>
+                    b.textContent=arr2[i];  <br>  
+     		}<br>
+              
+               list2.append(b);<br> 
+     	});<br>
+
+          <br>
+          <br>
+          btn2.style.backgroundColor="blue";<br>
+          btn2.style.padding="10px 20px 10px 20px";<br>
+          btn2.style.borderRadius="10px";<br>
+          btn2.style.border="0px";<br>
+          btn2.style.color="white"<br>
+          btn2.style.cursor="pointer";<br>
+			    </p>	
+			</div>
+			<div>
+			  <h3>Script Output => </h3>		
+			  <nav>
+				<ul id="list2"></ul>
+				<button id="btn2">Click</button>
+			  </nav>
+			</div>
+		</div>
+	</section>
+
+     <script type="text/javascript">
+
+     	var arr1=["Joe","Rio","Aline","Jax","Max","Tessa"]
+     	var c = 0;
+     	btn1.addEventListener('click',function(){
+
+     	     var a = document.createElement('li') 
+                
+                if(c < arr1.length) {
+                    a.textContent=arr1[c];    
+                    c++;
+     		}
+              
+               list1.append(a); 
+     	});
+
+
+     	box.style.backgroundColor="#c8c5c5";
+     	box.style.padding="20px";
+     	box.style.borderRadius="10px";
+
+     	box1.style.backgroundColor="#c8c5c5";
+     	box1.style.padding="20px";
+     	box1.style.borderRadius="10px";
+
+
+
+
+          btn1.style.backgroundColor="red";
+          btn1.style.padding="10px 20px 10px 20px";
+          btn1.style.borderRadius="10px";
+          btn1.style.border="0px";
+          btn1.style.color="white"
+          btn1.style.cursor="pointer";
+
+
+
+     	var arr2=[1,2,3,4,5,6]
+     	btn2.addEventListener('click',function(){
+
+     	     var b = document.createElement('li') 
+
+     		for (var i = 0; i < arr2.length; i++) {
+                    b.textContent=arr2[i];    
+     		}
+              
+               list2.append(b); 
+     	});
+
+
+          btn2.style.backgroundColor="blue";
+          btn2.style.padding="10px 20px 10px 20px";
+          btn2.style.borderRadius="10px";
+          btn2.style.border="0px";
+          btn2.style.color="white"
+          btn2.style.cursor="pointer";
+
+
+     	 
+     	
+     </script>
+</body>
+</html>
